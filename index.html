@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+   <header class="">
+    <div class="user">
+        
+        <h3 class="name">Muskan Giri</h3>
+
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact me</a></li>
+            
+            
+        </ul>
+    </nav>
+
+   </header> 
+
+
+    <section class="home" id="home">
+        <h3>Hi everyone!</h3>
+        <img id="img1" src="Image1.jpg" alt="profile image">
+        <h1>I am Muskan Giri </h1>
+        <p>I am a full stack developer intern at zemoso technologies</p>
+        <div class="icon">
+        <a href="https://www.linkedin.com/in/muskan-giri-24b6861a9" class="fa fa-linkedin"></a>
+    </div>
+        <a href="#about"><button class="btn">About me <i class="fas fa-user"></i></button></a>
+    </section>
+    <section class="about" id="about">
+
+        <h1 class="heading"><span>About</span> me</h1>
+        <div class="row">
+            <div class="info">
+                <h3><span>Name: </span>Muskan Giri</h3>
+                <h3><span>Age: </span>21</h3>
+                <h3><span>Qualification: </span>B.tech</h3>
+                <h3><span>Hobbies: </span>Travelling </h3>
+                <h3><span>Languages: </span>English, Hindi</h3>
+            </div>
+        <div class="counter">
+            Hello everyone, I'm Muskan Giri currently pursuing B.Tech CSE from Babu Banarasi Das Institute of Technology and Management. I like to explore and learn new things.I am a hardworking, responsible, enthusiastic, and self-motivated individual. I am a responsible team player who can easily adjust to any difficult circumstances. I can stay on task and meet deadlines even when under pressure.
+            </div>
+
+         </div>    
+        </div>
+         <div class="education">
+            <h1 class="heading">Education</h1>
+            <div class="timeline">
+                <div class="timeline-box">
+                   
+                    <h2>Current</h2>
+                    <h3>
+                        B.Tech from Babu Banarsi Das Institute of Technology
+                    </h3>  
+                </div>
+                <div class="timeline-box">
+                    <h2>2019</h2>
+                    <h3>
+                       12th from Sant Atulanand Residentital Academy
+                    </h3>  
+                </div>
+                <div class="timeline-box">
+                    <h2>2017</h2>
+                    <h3>
+                       10th from Sant Atulanand Residentital Academy
+                    </h3> 
+                </div>
+               
+            </div>
+         </div>
+
+            
+        
+    </section>
+    <section class="gallery" id="gallery">
+        <h1 class="heading">Gallery</h1>
+        <ul class="gallery_list">
+            <li><img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg" alt="image 1" >
+              <p>image #1</p></li>
+            <li><img src="https://i.pinimg.com/564x/f7/75/7d/f7757d5977c6ade5ba352ec583fe8e40.jpg" alt="image 2">
+              <p>image #2</p></li>
+            <li><img src="https://loveshayariimages.in/wp-content/uploads/2023/02/Butterfly-Whatsapp-DP-Images.jpg" alt="image 3" >
+              <p>image #3</p></li>
+            <li><img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image 4">
+              <p>image #4</p></li>
+            
+
+          </ul>
+         
+    </section>
+    <section class="contact" id="contact">
+        <h3 class="heading">Contact me </h3>
+
+        <div class="container">
+          <form action="mailto:girimuskan2002@gmail.com" method="get" enctype="text/plain" onsubmit="alert('Thank you for your feedback.');">
+            <label for="fname">Full Name  </label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required="">
+             
+             <label for="emailid">Email Id </label>
+             <input name="email" type="text" class="feedback-input" pattern="^[a-zA-Z0-9_.+-]+@gmail.com$" placeholder="Email" required="">
+             <label for="phone">Phone number </label>
+             <input type="phone" id="phone" name="phone" placeholder="Enter phone number" required="">
+             <br>
+            
+            <label for="country">Country </label>
+            <input type="text" list="countries" id="country" name="country">
+            <datalist id="countries">
+            <option value="Ind">India</option>
+            <option value="Aus">Austrlia</option>
+            <option value="Nep">Nepal</option>
+            <option value="Usa">USA</option>
+            <option value="Net">Netherlands</option>
+            <option value="Nor">Norway</option>
+            <option value="SWE">Sweden</option>
+        </datalist>
+            <label for="subject">Feedback</label>
+            <textarea id="subject" name="subject" placeholder="Give us your valuable suggesstion" style="height:100px"></textarea>
+        
+            <center><input id="submitForm" type="submit" value="Submit"></center>
+          </form>
+        </div>
+    </section>
+    
+
+
+</body></html>
